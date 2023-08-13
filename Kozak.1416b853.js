@@ -117,9 +117,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"components/modal/modalForm/img/Vector.svg":[function(require,module,exports) {
-module.exports = "/Vector.3b18804c.svg";
-},{}],"constants/_root.js":[function(require,module,exports) {
+})({"W9Ct":[function(require,module,exports) {
+module.exports = "Vector.c76dbc3a.svg";
+},{}],"YXqr":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -130,13 +130,13 @@ var ROOT_MODAL = document.querySelector('.modalForm');
 exports.ROOT_MODAL = ROOT_MODAL;
 var ROOT_MODAL_CASE_FIRST = document.querySelector('.modalCaseFirst');
 exports.ROOT_MODAL_CASE_FIRST = ROOT_MODAL_CASE_FIRST;
-},{}],"components/modal/modalCase/img/trafic.png":[function(require,module,exports) {
-module.exports = "/trafic.bfbb3b05.png";
-},{}],"components/modal/modalCase/img/chart.png":[function(require,module,exports) {
-module.exports = "/chart.efae19f0.png";
-},{}],"components/modal/modalCase/img/table.png":[function(require,module,exports) {
-module.exports = "/table.12f95d55.png";
-},{}],"components/modal/modalCase/ModalCase.js":[function(require,module,exports) {
+},{}],"UKhy":[function(require,module,exports) {
+module.exports = "trafic.4086fa4f.png";
+},{}],"QrLR":[function(require,module,exports) {
+module.exports = "chart.982ff9da.png";
+},{}],"XtWt":[function(require,module,exports) {
+module.exports = "table.6eaf46ce.png";
+},{}],"Sfhf":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -196,7 +196,7 @@ var ModalForm = /*#__PURE__*/function () {
 }();
 var _default = new ModalForm();
 exports.default = _default;
-},{"../modalForm/img/Vector.svg":"components/modal/modalForm/img/Vector.svg","../../../constants/_root.js":"constants/_root.js","./img/trafic.png":"components/modal/modalCase/img/trafic.png","./img/chart.png":"components/modal/modalCase/img/chart.png","./img/table.png":"components/modal/modalCase/img/table.png"}],"node_modules/imask/esm/core/utils.js":[function(require,module,exports) {
+},{"../modalForm/img/Vector.svg":"W9Ct","../../../constants/_root.js":"YXqr","./img/trafic.png":"UKhy","./img/chart.png":"QrLR","./img/table.png":"XtWt"}],"HB08":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -289,7 +289,7 @@ function objectIncludes(b, a) {
 }
 
 /** Selection range */
-},{}],"node_modules/imask/esm/core/action-details.js":[function(require,module,exports) {
+},{}],"WF3B":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -365,7 +365,7 @@ class ActionDetails {
   }
 }
 exports.default = ActionDetails;
-},{"./utils.js":"node_modules/imask/esm/core/utils.js"}],"node_modules/imask/esm/core/holder.js":[function(require,module,exports) {
+},{"./utils.js":"HB08"}],"OEVS":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -377,7 +377,7 @@ function IMask(el, opts) {
   // currently available only for input-like elements
   return new IMask.InputMask(el, opts);
 }
-},{}],"node_modules/imask/esm/masked/factory.js":[function(require,module,exports) {
+},{}],"ubeH":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -504,7 +504,7 @@ function createMask(opts) {
   return new MaskedClass(nOpts);
 }
 _holder.default.createMask = createMask;
-},{"../core/utils.js":"node_modules/imask/esm/core/utils.js","../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/controls/mask-element.js":[function(require,module,exports) {
+},{"../core/utils.js":"HB08","../core/holder.js":"OEVS"}],"ptXv":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -559,7 +559,7 @@ class MaskElement {
 }
 exports.default = MaskElement;
 _holder.default.MaskElement = MaskElement;
-},{"../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/controls/html-mask-element.js":[function(require,module,exports) {
+},{"../core/holder.js":"OEVS"}],"AMQX":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -625,7 +625,7 @@ HTMLMaskElement.EVENTS_MAP = {
   commit: 'blur'
 };
 _holder.default.HTMLMaskElement = HTMLMaskElement;
-},{"./mask-element.js":"node_modules/imask/esm/controls/mask-element.js","../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/controls/html-input-mask-element.js":[function(require,module,exports) {
+},{"./mask-element.js":"ptXv","../core/holder.js":"OEVS"}],"iE4W":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -669,7 +669,7 @@ class HTMLInputMaskElement extends _htmlMaskElement.default {
 }
 exports.default = HTMLInputMaskElement;
 _holder.default.HTMLMaskElement = _htmlMaskElement.default;
-},{"./html-mask-element.js":"node_modules/imask/esm/controls/html-mask-element.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","./mask-element.js":"node_modules/imask/esm/controls/mask-element.js"}],"node_modules/imask/esm/controls/html-contenteditable-mask-element.js":[function(require,module,exports) {
+},{"./html-mask-element.js":"AMQX","../core/holder.js":"OEVS","./mask-element.js":"ptXv"}],"vB9A":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -729,7 +729,7 @@ class HTMLContenteditableMaskElement extends _htmlMaskElement.default {
 }
 exports.default = HTMLContenteditableMaskElement;
 _holder.default.HTMLContenteditableMaskElement = HTMLContenteditableMaskElement;
-},{"./html-mask-element.js":"node_modules/imask/esm/controls/html-mask-element.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","./mask-element.js":"node_modules/imask/esm/controls/mask-element.js"}],"node_modules/imask/esm/controls/input.js":[function(require,module,exports) {
+},{"./html-mask-element.js":"AMQX","../core/holder.js":"OEVS","./mask-element.js":"ptXv"}],"G6II":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1052,7 +1052,7 @@ class InputMask {
 }
 exports.default = InputMask;
 _holder.default.InputMask = InputMask;
-},{"../core/utils.js":"node_modules/imask/esm/core/utils.js","../core/action-details.js":"node_modules/imask/esm/core/action-details.js","../masked/factory.js":"node_modules/imask/esm/masked/factory.js","./mask-element.js":"node_modules/imask/esm/controls/mask-element.js","./html-input-mask-element.js":"node_modules/imask/esm/controls/html-input-mask-element.js","./html-contenteditable-mask-element.js":"node_modules/imask/esm/controls/html-contenteditable-mask-element.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","./html-mask-element.js":"node_modules/imask/esm/controls/html-mask-element.js"}],"node_modules/imask/esm/core/change-details.js":[function(require,module,exports) {
+},{"../core/utils.js":"HB08","../core/action-details.js":"WF3B","../masked/factory.js":"ubeH","./mask-element.js":"ptXv","./html-input-mask-element.js":"iE4W","./html-contenteditable-mask-element.js":"vB9A","../core/holder.js":"OEVS","./html-mask-element.js":"AMQX"}],"fHRD":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1099,7 +1099,7 @@ class ChangeDetails {
 }
 exports.default = ChangeDetails;
 _holder.default.ChangeDetails = ChangeDetails;
-},{"./holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/core/continuous-tail-details.js":[function(require,module,exports) {
+},{"./holder.js":"OEVS"}],"wrny":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1160,7 +1160,7 @@ class ContinuousTailDetails {
   }
 }
 exports.default = ContinuousTailDetails;
-},{}],"node_modules/imask/esm/masked/base.js":[function(require,module,exports) {
+},{}],"rTuO":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1551,7 +1551,7 @@ Masked.DEFAULTS = {
 };
 Masked.EMPTY_VALUES = [undefined, null, ''];
 _holder.default.Masked = Masked;
-},{"../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","../core/utils.js":"node_modules/imask/esm/core/utils.js","../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/masked/pattern/chunk-tail-details.js":[function(require,module,exports) {
+},{"../core/change-details.js":"fHRD","../core/continuous-tail-details.js":"wrny","../core/utils.js":"HB08","../core/holder.js":"OEVS"}],"CH7A":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1718,7 +1718,7 @@ class ChunksTailDetails {
   }
 }
 exports.default = ChunksTailDetails;
-},{"../../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../../core/utils.js":"node_modules/imask/esm/core/utils.js","../../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","../../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/masked/pattern/cursor.js":[function(require,module,exports) {
+},{"../../core/change-details.js":"fHRD","../../core/utils.js":"HB08","../../core/continuous-tail-details.js":"wrny","../../core/holder.js":"OEVS"}],"YBq2":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1855,7 +1855,7 @@ class PatternCursor {
   }
 }
 exports.default = PatternCursor;
-},{"../../core/utils.js":"node_modules/imask/esm/core/utils.js"}],"node_modules/imask/esm/masked/pattern/fixed-definition.js":[function(require,module,exports) {
+},{"../../core/utils.js":"HB08"}],"sgeE":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2008,7 +2008,7 @@ class PatternFixedDefinition {
   }
 }
 exports.default = PatternFixedDefinition;
-},{"../../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../../core/utils.js":"node_modules/imask/esm/core/utils.js","../../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","../../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/masked/pattern/input-definition.js":[function(require,module,exports) {
+},{"../../core/change-details.js":"fHRD","../../core/utils.js":"HB08","../../core/continuous-tail-details.js":"wrny","../../core/holder.js":"OEVS"}],"Rx0W":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2198,7 +2198,7 @@ PatternInputDefinition.DEFAULT_DEFINITIONS = {
   // http://stackoverflow.com/a/22075070
   '*': /./
 };
-},{"../factory.js":"node_modules/imask/esm/masked/factory.js","../../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../../core/utils.js":"node_modules/imask/esm/core/utils.js","../../core/holder.js":"node_modules/imask/esm/core/holder.js"}],"node_modules/imask/esm/masked/regexp.js":[function(require,module,exports) {
+},{"../factory.js":"ubeH","../../core/change-details.js":"fHRD","../../core/utils.js":"HB08","../../core/holder.js":"OEVS"}],"iSZB":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2232,7 +2232,7 @@ class MaskedRegExp extends _base.default {
 }
 exports.default = MaskedRegExp;
 _holder.default.MaskedRegExp = MaskedRegExp;
-},{"./base.js":"node_modules/imask/esm/masked/base.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","../core/utils.js":"node_modules/imask/esm/core/utils.js"}],"node_modules/imask/esm/masked/pattern.js":[function(require,module,exports) {
+},{"./base.js":"rTuO","../core/holder.js":"OEVS","../core/change-details.js":"fHRD","../core/continuous-tail-details.js":"wrny","../core/utils.js":"HB08"}],"qSUD":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2694,7 +2694,7 @@ MaskedPattern.ESCAPE_CHAR = '\\';
 MaskedPattern.InputDefinition = _inputDefinition.default;
 MaskedPattern.FixedDefinition = _fixedDefinition.default;
 _holder.default.MaskedPattern = MaskedPattern;
-},{"../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/utils.js":"node_modules/imask/esm/core/utils.js","./base.js":"node_modules/imask/esm/masked/base.js","./factory.js":"node_modules/imask/esm/masked/factory.js","./pattern/chunk-tail-details.js":"node_modules/imask/esm/masked/pattern/chunk-tail-details.js","./pattern/cursor.js":"node_modules/imask/esm/masked/pattern/cursor.js","./pattern/fixed-definition.js":"node_modules/imask/esm/masked/pattern/fixed-definition.js","./pattern/input-definition.js":"node_modules/imask/esm/masked/pattern/input-definition.js","./regexp.js":"node_modules/imask/esm/masked/regexp.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js"}],"node_modules/imask/esm/masked/range.js":[function(require,module,exports) {
+},{"../core/change-details.js":"fHRD","../core/holder.js":"OEVS","../core/utils.js":"HB08","./base.js":"rTuO","./factory.js":"ubeH","./pattern/chunk-tail-details.js":"CH7A","./pattern/cursor.js":"YBq2","./pattern/fixed-definition.js":"sgeE","./pattern/input-definition.js":"Rx0W","./regexp.js":"iSZB","../core/continuous-tail-details.js":"wrny"}],"SUY5":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2802,7 +2802,7 @@ class MaskedRange extends _pattern.default {
 }
 exports.default = MaskedRange;
 _holder.default.MaskedRange = MaskedRange;
-},{"../core/holder.js":"node_modules/imask/esm/core/holder.js","./pattern.js":"node_modules/imask/esm/masked/pattern.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../core/utils.js":"node_modules/imask/esm/core/utils.js","./base.js":"node_modules/imask/esm/masked/base.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","./factory.js":"node_modules/imask/esm/masked/factory.js","./pattern/chunk-tail-details.js":"node_modules/imask/esm/masked/pattern/chunk-tail-details.js","./pattern/cursor.js":"node_modules/imask/esm/masked/pattern/cursor.js","./pattern/fixed-definition.js":"node_modules/imask/esm/masked/pattern/fixed-definition.js","./pattern/input-definition.js":"node_modules/imask/esm/masked/pattern/input-definition.js","./regexp.js":"node_modules/imask/esm/masked/regexp.js"}],"node_modules/imask/esm/masked/date.js":[function(require,module,exports) {
+},{"../core/holder.js":"OEVS","./pattern.js":"qSUD","../core/change-details.js":"fHRD","../core/utils.js":"HB08","./base.js":"rTuO","../core/continuous-tail-details.js":"wrny","./factory.js":"ubeH","./pattern/chunk-tail-details.js":"CH7A","./pattern/cursor.js":"YBq2","./pattern/fixed-definition.js":"sgeE","./pattern/input-definition.js":"Rx0W","./regexp.js":"iSZB"}],"xGdD":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -2952,7 +2952,7 @@ MaskedDate.DEFAULTS = {
   }
 };
 _holder.default.MaskedDate = MaskedDate;
-},{"./pattern.js":"node_modules/imask/esm/masked/pattern.js","./range.js":"node_modules/imask/esm/masked/range.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/utils.js":"node_modules/imask/esm/core/utils.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","./base.js":"node_modules/imask/esm/masked/base.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","./factory.js":"node_modules/imask/esm/masked/factory.js","./pattern/chunk-tail-details.js":"node_modules/imask/esm/masked/pattern/chunk-tail-details.js","./pattern/cursor.js":"node_modules/imask/esm/masked/pattern/cursor.js","./pattern/fixed-definition.js":"node_modules/imask/esm/masked/pattern/fixed-definition.js","./pattern/input-definition.js":"node_modules/imask/esm/masked/pattern/input-definition.js","./regexp.js":"node_modules/imask/esm/masked/regexp.js"}],"node_modules/imask/esm/masked/dynamic.js":[function(require,module,exports) {
+},{"./pattern.js":"qSUD","./range.js":"SUY5","../core/holder.js":"OEVS","../core/utils.js":"HB08","../core/change-details.js":"fHRD","./base.js":"rTuO","../core/continuous-tail-details.js":"wrny","./factory.js":"ubeH","./pattern/chunk-tail-details.js":"CH7A","./pattern/cursor.js":"YBq2","./pattern/fixed-definition.js":"sgeE","./pattern/input-definition.js":"Rx0W","./regexp.js":"iSZB"}],"OFmU":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3300,7 +3300,7 @@ MaskedDynamic.DEFAULTS = {
   }
 };
 _holder.default.MaskedDynamic = MaskedDynamic;
-},{"../core/utils.js":"node_modules/imask/esm/core/utils.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","./factory.js":"node_modules/imask/esm/masked/factory.js","./base.js":"node_modules/imask/esm/masked/base.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js"}],"node_modules/imask/esm/masked/enum.js":[function(require,module,exports) {
+},{"../core/utils.js":"HB08","../core/change-details.js":"fHRD","./factory.js":"ubeH","./base.js":"rTuO","../core/holder.js":"OEVS","../core/continuous-tail-details.js":"wrny"}],"e5ae":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3350,7 +3350,7 @@ class MaskedEnum extends _pattern.default {
 }
 exports.default = MaskedEnum;
 _holder.default.MaskedEnum = MaskedEnum;
-},{"./pattern.js":"node_modules/imask/esm/masked/pattern.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../core/utils.js":"node_modules/imask/esm/core/utils.js","./base.js":"node_modules/imask/esm/masked/base.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","./factory.js":"node_modules/imask/esm/masked/factory.js","./pattern/chunk-tail-details.js":"node_modules/imask/esm/masked/pattern/chunk-tail-details.js","./pattern/cursor.js":"node_modules/imask/esm/masked/pattern/cursor.js","./pattern/fixed-definition.js":"node_modules/imask/esm/masked/pattern/fixed-definition.js","./pattern/input-definition.js":"node_modules/imask/esm/masked/pattern/input-definition.js","./regexp.js":"node_modules/imask/esm/masked/regexp.js"}],"node_modules/imask/esm/masked/function.js":[function(require,module,exports) {
+},{"./pattern.js":"qSUD","../core/holder.js":"OEVS","../core/change-details.js":"fHRD","../core/utils.js":"HB08","./base.js":"rTuO","../core/continuous-tail-details.js":"wrny","./factory.js":"ubeH","./pattern/chunk-tail-details.js":"CH7A","./pattern/cursor.js":"YBq2","./pattern/fixed-definition.js":"sgeE","./pattern/input-definition.js":"Rx0W","./regexp.js":"iSZB"}],"HWZA":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3385,7 +3385,7 @@ class MaskedFunction extends _base.default {
 }
 exports.default = MaskedFunction;
 _holder.default.MaskedFunction = MaskedFunction;
-},{"./base.js":"node_modules/imask/esm/masked/base.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","../core/utils.js":"node_modules/imask/esm/core/utils.js"}],"node_modules/imask/esm/masked/number.js":[function(require,module,exports) {
+},{"./base.js":"rTuO","../core/holder.js":"OEVS","../core/change-details.js":"fHRD","../core/continuous-tail-details.js":"wrny","../core/utils.js":"HB08"}],"CwKU":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3696,7 +3696,7 @@ MaskedNumber.DEFAULTS = {
   })
 };
 _holder.default.MaskedNumber = MaskedNumber;
-},{"../core/utils.js":"node_modules/imask/esm/core/utils.js","../core/change-details.js":"node_modules/imask/esm/core/change-details.js","./base.js":"node_modules/imask/esm/masked/base.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js"}],"node_modules/imask/esm/masked/pipe.js":[function(require,module,exports) {
+},{"../core/utils.js":"HB08","../core/change-details.js":"fHRD","./base.js":"rTuO","../core/holder.js":"OEVS","../core/continuous-tail-details.js":"wrny"}],"wy9m":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3738,7 +3738,7 @@ function pipe(value, mask, from, to) {
 _holder.default.PIPE_TYPE = PIPE_TYPE;
 _holder.default.createPipe = createPipe;
 _holder.default.pipe = pipe;
-},{"./factory.js":"node_modules/imask/esm/masked/factory.js","../core/holder.js":"node_modules/imask/esm/core/holder.js","../core/utils.js":"node_modules/imask/esm/core/utils.js"}],"node_modules/imask/esm/index.js":[function(require,module,exports) {
+},{"./factory.js":"ubeH","../core/holder.js":"OEVS","../core/utils.js":"HB08"}],"k4XZ":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -3931,7 +3931,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 try {
   globalThis.IMask = _holder.default;
 } catch {}
-},{"./controls/input.js":"node_modules/imask/esm/controls/input.js","./core/holder.js":"node_modules/imask/esm/core/holder.js","./controls/html-contenteditable-mask-element.js":"node_modules/imask/esm/controls/html-contenteditable-mask-element.js","./controls/html-input-mask-element.js":"node_modules/imask/esm/controls/html-input-mask-element.js","./controls/html-mask-element.js":"node_modules/imask/esm/controls/html-mask-element.js","./controls/mask-element.js":"node_modules/imask/esm/controls/mask-element.js","./core/change-details.js":"node_modules/imask/esm/core/change-details.js","./core/utils.js":"node_modules/imask/esm/core/utils.js","./masked/base.js":"node_modules/imask/esm/masked/base.js","./masked/date.js":"node_modules/imask/esm/masked/date.js","./masked/dynamic.js":"node_modules/imask/esm/masked/dynamic.js","./masked/enum.js":"node_modules/imask/esm/masked/enum.js","./masked/factory.js":"node_modules/imask/esm/masked/factory.js","./masked/function.js":"node_modules/imask/esm/masked/function.js","./masked/number.js":"node_modules/imask/esm/masked/number.js","./masked/pattern.js":"node_modules/imask/esm/masked/pattern.js","./masked/pattern/chunk-tail-details.js":"node_modules/imask/esm/masked/pattern/chunk-tail-details.js","./masked/pattern/fixed-definition.js":"node_modules/imask/esm/masked/pattern/fixed-definition.js","./masked/pattern/input-definition.js":"node_modules/imask/esm/masked/pattern/input-definition.js","./masked/pipe.js":"node_modules/imask/esm/masked/pipe.js","./masked/range.js":"node_modules/imask/esm/masked/range.js","./masked/regexp.js":"node_modules/imask/esm/masked/regexp.js","./core/action-details.js":"node_modules/imask/esm/core/action-details.js","./core/continuous-tail-details.js":"node_modules/imask/esm/core/continuous-tail-details.js","./masked/pattern/cursor.js":"node_modules/imask/esm/masked/pattern/cursor.js"}],"components/modal/modalForm/ModalForm.js":[function(require,module,exports) {
+},{"./controls/input.js":"G6II","./core/holder.js":"OEVS","./controls/html-contenteditable-mask-element.js":"vB9A","./controls/html-input-mask-element.js":"iE4W","./controls/html-mask-element.js":"AMQX","./controls/mask-element.js":"ptXv","./core/change-details.js":"fHRD","./core/utils.js":"HB08","./masked/base.js":"rTuO","./masked/date.js":"xGdD","./masked/dynamic.js":"OFmU","./masked/enum.js":"e5ae","./masked/factory.js":"ubeH","./masked/function.js":"HWZA","./masked/number.js":"CwKU","./masked/pattern.js":"qSUD","./masked/pattern/chunk-tail-details.js":"CH7A","./masked/pattern/fixed-definition.js":"sgeE","./masked/pattern/input-definition.js":"Rx0W","./masked/pipe.js":"wy9m","./masked/range.js":"SUY5","./masked/regexp.js":"iSZB","./core/action-details.js":"WF3B","./core/continuous-tail-details.js":"wrny","./masked/pattern/cursor.js":"YBq2"}],"WaA4":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4096,7 +4096,7 @@ var ModalForm = /*#__PURE__*/function () {
 }();
 var _default = new ModalForm();
 exports.default = _default;
-},{"./img/Vector.svg":"components/modal/modalForm/img/Vector.svg","../../../technicalFunctions/TechnicalFunctions.js":"technicalFunctions/TechnicalFunctions.js","../../../constants/_root.js":"constants/_root.js","imask":"node_modules/imask/esm/index.js"}],"technicalFunctions/TechnicalFunctions.js":[function(require,module,exports) {
+},{"./img/Vector.svg":"W9Ct","../../../technicalFunctions/TechnicalFunctions.js":"opYb","../../../constants/_root.js":"YXqr","imask":"k4XZ"}],"opYb":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4227,7 +4227,7 @@ var TechnicalFunctions = /*#__PURE__*/function () {
 ;
 var _default = new TechnicalFunctions();
 exports.default = _default;
-},{"../components/modal/modalCase/ModalCase.js":"components/modal/modalCase/ModalCase.js","../components/modal/modalForm/ModalForm.js":"components/modal/modalForm/ModalForm.js"}],"components/form/Form.js":[function(require,module,exports) {
+},{"../components/modal/modalCase/ModalCase.js":"Sfhf","../components/modal/modalForm/ModalForm.js":"WaA4"}],"mrum":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4358,7 +4358,7 @@ var Form = /*#__PURE__*/function () {
 ;
 var _default = new Form();
 exports.default = _default;
-},{"../../technicalFunctions/TechnicalFunctions":"technicalFunctions/TechnicalFunctions.js","imask":"node_modules/imask/esm/index.js"}],"components/questions/Questions.js":[function(require,module,exports) {
+},{"../../technicalFunctions/TechnicalFunctions":"opYb","imask":"k4XZ"}],"nx6M":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4396,7 +4396,7 @@ var Questions = /*#__PURE__*/function () {
 ;
 var _default = new Questions();
 exports.default = _default;
-},{}],"components/secondForm/SecondForm.js":[function(require,module,exports) {
+},{}],"j65i":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -4501,7 +4501,7 @@ var SecondForm = /*#__PURE__*/function () {
 ;
 var _default = new SecondForm();
 exports.default = _default;
-},{"../../technicalFunctions/TechnicalFunctions":"technicalFunctions/TechnicalFunctions.js"}],"index.js":[function(require,module,exports) {
+},{"../../technicalFunctions/TechnicalFunctions":"opYb"}],"Focm":[function(require,module,exports) {
 "use strict";
 
 var _Form = _interopRequireDefault(require("./components/form/Form.js"));
@@ -4531,174 +4531,4 @@ document.addEventListener('DOMContentLoaded', function () {
     loop: true
   });
 });
-},{"./components/form/Form.js":"components/form/Form.js","./components/questions/Questions.js":"components/questions/Questions.js","./components/secondForm/SecondForm.js":"components/secondForm/SecondForm.js","./technicalFunctions/TechnicalFunctions.js":"technicalFunctions/TechnicalFunctions.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
-var global = arguments[3];
-var OVERLAY_ID = '__parcel__error__overlay__';
-var OldModule = module.bundle.Module;
-function Module(moduleName) {
-  OldModule.call(this, moduleName);
-  this.hot = {
-    data: module.bundle.hotData,
-    _acceptCallbacks: [],
-    _disposeCallbacks: [],
-    accept: function (fn) {
-      this._acceptCallbacks.push(fn || function () {});
-    },
-    dispose: function (fn) {
-      this._disposeCallbacks.push(fn);
-    }
-  };
-  module.bundle.hotData = null;
-}
-module.bundle.Module = Module;
-var checkedAssets, assetsToAccept;
-var parent = module.bundle.parent;
-if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
-  var hostname = "" || location.hostname;
-  var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57537" + '/');
-  ws.onmessage = function (event) {
-    checkedAssets = {};
-    assetsToAccept = [];
-    var data = JSON.parse(event.data);
-    if (data.type === 'update') {
-      var handled = false;
-      data.assets.forEach(function (asset) {
-        if (!asset.isNew) {
-          var didAccept = hmrAcceptCheck(global.parcelRequire, asset.id);
-          if (didAccept) {
-            handled = true;
-          }
-        }
-      });
-
-      // Enable HMR for CSS by default.
-      handled = handled || data.assets.every(function (asset) {
-        return asset.type === 'css' && asset.generated.js;
-      });
-      if (handled) {
-        console.clear();
-        data.assets.forEach(function (asset) {
-          hmrApply(global.parcelRequire, asset);
-        });
-        assetsToAccept.forEach(function (v) {
-          hmrAcceptRun(v[0], v[1]);
-        });
-      } else if (location.reload) {
-        // `location` global exists in a web worker context but lacks `.reload()` function.
-        location.reload();
-      }
-    }
-    if (data.type === 'reload') {
-      ws.close();
-      ws.onclose = function () {
-        location.reload();
-      };
-    }
-    if (data.type === 'error-resolved') {
-      console.log('[parcel] ✨ Error resolved');
-      removeErrorOverlay();
-    }
-    if (data.type === 'error') {
-      console.error('[parcel] 🚨  ' + data.error.message + '\n' + data.error.stack);
-      removeErrorOverlay();
-      var overlay = createErrorOverlay(data);
-      document.body.appendChild(overlay);
-    }
-  };
-}
-function removeErrorOverlay() {
-  var overlay = document.getElementById(OVERLAY_ID);
-  if (overlay) {
-    overlay.remove();
-  }
-}
-function createErrorOverlay(data) {
-  var overlay = document.createElement('div');
-  overlay.id = OVERLAY_ID;
-
-  // html encode message and stack trace
-  var message = document.createElement('div');
-  var stackTrace = document.createElement('pre');
-  message.innerText = data.error.message;
-  stackTrace.innerText = data.error.stack;
-  overlay.innerHTML = '<div style="background: black; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; opacity: 0.85; font-family: Menlo, Consolas, monospace; z-index: 9999;">' + '<span style="background: red; padding: 2px 4px; border-radius: 2px;">ERROR</span>' + '<span style="top: 2px; margin-left: 5px; position: relative;">🚨</span>' + '<div style="font-size: 18px; font-weight: bold; margin-top: 20px;">' + message.innerHTML + '</div>' + '<pre>' + stackTrace.innerHTML + '</pre>' + '</div>';
-  return overlay;
-}
-function getParents(bundle, id) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return [];
-  }
-  var parents = [];
-  var k, d, dep;
-  for (k in modules) {
-    for (d in modules[k][1]) {
-      dep = modules[k][1][d];
-      if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) {
-        parents.push(k);
-      }
-    }
-  }
-  if (bundle.parent) {
-    parents = parents.concat(getParents(bundle.parent, id));
-  }
-  return parents;
-}
-function hmrApply(bundle, asset) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return;
-  }
-  if (modules[asset.id] || !bundle.parent) {
-    var fn = new Function('require', 'module', 'exports', asset.generated.js);
-    asset.isNew = !modules[asset.id];
-    modules[asset.id] = [fn, asset.deps];
-  } else if (bundle.parent) {
-    hmrApply(bundle.parent, asset);
-  }
-}
-function hmrAcceptCheck(bundle, id) {
-  var modules = bundle.modules;
-  if (!modules) {
-    return;
-  }
-  if (!modules[id] && bundle.parent) {
-    return hmrAcceptCheck(bundle.parent, id);
-  }
-  if (checkedAssets[id]) {
-    return;
-  }
-  checkedAssets[id] = true;
-  var cached = bundle.cache[id];
-  assetsToAccept.push([bundle, id]);
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    return true;
-  }
-  return getParents(global.parcelRequire, id).some(function (id) {
-    return hmrAcceptCheck(global.parcelRequire, id);
-  });
-}
-function hmrAcceptRun(bundle, id) {
-  var cached = bundle.cache[id];
-  bundle.hotData = {};
-  if (cached) {
-    cached.hot.data = bundle.hotData;
-  }
-  if (cached && cached.hot && cached.hot._disposeCallbacks.length) {
-    cached.hot._disposeCallbacks.forEach(function (cb) {
-      cb(bundle.hotData);
-    });
-  }
-  delete bundle.cache[id];
-  bundle(id);
-  cached = bundle.cache[id];
-  if (cached && cached.hot && cached.hot._acceptCallbacks.length) {
-    cached.hot._acceptCallbacks.forEach(function (cb) {
-      cb();
-    });
-    return true;
-  }
-}
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
-//# sourceMappingURL=/Kozak.e31bb0bc.js.map
+},{"./components/form/Form.js":"mrum","./components/questions/Questions.js":"nx6M","./components/secondForm/SecondForm.js":"j65i","./technicalFunctions/TechnicalFunctions.js":"opYb"}]},{},["Focm"], null)
