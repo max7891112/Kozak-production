@@ -1744,7 +1744,7 @@ a {
   font-weight: 300;
   line-height: 130%;
   transition: all 0.5s ease 0s;
-  max-height: 140px;
+  max-height: 160px;
   padding: 25px 0 0 0;
 }
 
@@ -2000,7 +2000,7 @@ a {
   content: "";
   width: 32px;
   height: 32px;
-  background-image: url("/check.84319467.svg");
+  background-image: url("check.04cc9163.svg");
   position: absolute;
   top: 18%;
   left: -4%;
@@ -2085,5 +2085,3 @@ a {
     background-color: rgba(0, 0, 0, 0);
   }
 }
-
-/*# sourceMappingURL=/Kozak.80ee2152.css.map */
